@@ -1,0 +1,12 @@
+.hero {
+    background-image: url("../images/tickets-hero.jpg");
+}
+
+.contact {
+    background: white;
+    margin: 3rem auto;
+    padding: 2rem;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+}

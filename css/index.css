@@ -1,0 +1,74 @@
+/*hero*/
+.welcome {
+    display: flex;
+    position: relative;
+    justify-content: right;
+    margin: 60px 100px;
+}
+
+.welcome-text {
+    position: absolute;
+    background-color: rgba(4, 138, 168, 0.856);
+    color: white;
+    padding: 3rem;
+    border-radius: 50%;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 220px;
+    max-height: 220px;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+.welcome-text p {
+    line-height: 1.2;
+    font-size: 1rem;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23rem;
+}
+
+/*hero end*/ 
+
+body {
+    background-image: url(../images/space.png);
+    background-repeat: no-repeat;
+    background-position-x: -1rem;
+}
+
+/* content cards */
+
+.card {
+    flex-wrap: wrap;
+    padding: 2.5em;
+    margin: 5em 12em 5em 12em;
+    background: #fff;
+    --gap: 2rem;
+    margin-bottom: 5rem;
+    box-shadow: 5px 10px 18px #888888;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+.card > * {
+    flex: 1 1 26em;
+    align-self: center;
+}
+
+.image {
+    width: 100%;
+    min-height: 20em;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.small-cta2 {
+    margin-top: 2rem;
+}
+/* content cards end */
+
+

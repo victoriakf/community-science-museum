@@ -1,0 +1,11 @@
+.hero {
+    background-image: url(../images/events2.jpg);
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.card .title {
+    color: #FFBA08;
+}

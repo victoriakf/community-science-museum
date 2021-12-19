@@ -1,0 +1,110 @@
+.visit-hero {
+  background-image: url("../images/visit.jpg");
+}
+
+.visit-hero h1 {
+  bottom: 10rem;
+}
+
+.visit-hero button {
+  position: absolute;
+  bottom: 4rem;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-content {
+  justify-content: center;
+  align-items: center;
+}
+
+.info-cards {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 60em;
+}
+
+.info-cards > * {
+  flex: 1 1 26em;
+  align-self: center;
+}
+
+.info-cards h2 {
+  font-size: 1.5rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.info-card {
+  background: white;
+  margin: 2rem;
+  height: 100%;
+  box-shadow: 0 0 12px rgba(0, 1, 1, 0.15);
+}
+
+.info-header {
+  min-height: 4rem;
+  background-color: #a4508b;
+  margin: 0rem;
+}
+
+.info-card ul,
+.info-text {
+  list-style: none;
+  padding: 3rem;
+  font-size: 1.2rem;
+}
+
+.sub-heading {
+  font-weight: 700;
+  padding-top: 1rem;
+}
+
+.access {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 8rem;
+  background: white;
+  max-width: 60em;
+}
+
+.access > * {
+  flex: 1 1 26em;
+}
+
+.access img {
+  width: 100%;
+}
+
+.info-cards img {
+    width: 100%;
+    max-width: 100%;
+}
+
+@media (max-width: 959px) {
+    .info-cards {
+        margin: 2rem 8rem;
+    }
+
+    .access {
+        margin: 1rem 10rem;
+    }
+}
+
+@media (max-width: 830px) {
+    .info-cards,
+    .info-card,
+    .access {
+        margin: 2rem 0rem;
+    }
+
+    .info-img
+    .access-img {
+        max-width: 30rem;
+    }
+    }

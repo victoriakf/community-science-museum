@@ -1,0 +1,124 @@
+.hero {
+  background-image: url(../images/exhibition.jpg);
+}
+
+.link-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4em;
+  font-size: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-cards > * {
+  flex: 1 1 26em;
+}
+
+.link-card-1 {
+  background-image: url("../images/cosmology.jpg");
+}
+
+.link-card-2 {
+  background-image: url("../images/evolution.jpg");
+}
+
+.link-card-3 {
+  background-image: url("../images/biology.jpg");
+}
+
+.link-card-4 {
+  background-image: url("../images/robotics.jpg");
+}
+
+.link-card-5 {
+  background-image: url("../images/ecology.jpg");
+}
+
+.link-card {
+  color: white;
+  background-size: cover;
+  background-position: center;
+  padding: 10rem 0 0;
+  max-width: 35ch;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 400ms ease-out;
+  margin: 1rem;
+}
+
+.link-card:hover,
+.link-card:focus-within {
+  transform: scale(1.05);
+}
+
+.link-card-content {
+  padding: 1.5em;
+  background: linear-gradient(
+    rgba(0, 0, 250, 0),
+    rgba(122, 50, 100, 0.9),
+    rgba(25, 32, 71, 1)
+  );
+}
+
+@media (hover) {
+  .link-card-content {
+    transform: translateY(70%);
+    transition: transform 400ms ease;
+  }
+
+  .link-card:hover .link-card-content,
+  .link-card:focus-within .link-card-content {
+    transform: translateY(0%);
+  }
+
+  .link-card:hover .link-card-title,
+  .link-card:focus-within .link-card-title {
+    text-decoration: underline 3px rgba(255, 120, 180, 100);
+  }
+
+  .link-card:focus-within .link-card-content {
+    transition-duration: 0ms;
+  }
+}
+
+.link-card-title {
+  color: white;
+  text-decoration: underline 3px rgba(255, 120, 180, 0);
+  transition: transform 300ms;
+}
+
+.link-card-content a {
+  text-decoration: none;
+}
+
+.content-ex {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  max-width: 1200px;
+}
+
+.content-ex > * {
+  flex: 1 1 50em;
+}
+
+@media (min-width: 1250px) {
+  .content-ex {
+    margin: 5rem auto;
+  }
+
+  .card {
+    grid-template-rows: 600px auto 80px;
+  }
+}
+
+@media (max-width: 830px) {
+  .link-cards {
+    margin: 5rem 0em;
+  }
+
+  .content-ex {
+    margin: 0rem;
+  }
+}
