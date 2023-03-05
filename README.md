@@ -8,12 +8,15 @@ A website for a museum geared towards children.
 
 ## Brief
 The task was to design and code a website for a science museum that caters to kids and youth. 
-https://unsplash.com/developers, primarily for students who are searching for free stock images for their projects. Following pages needed to be included:
+The page had to have a look and feel that appealed to children, using colors and design that was eye-catching, intuitive and easy to follow. The site needed to have at least 4-6 pages and includes the following pages:
 
 -	Home page
--	Image search results page
--	Image specific page
--	Photographer page
+-	Events
+-	Exhibitions
+-	Explore
+- Get involved
+- Visit
+- Contact
 
 ## Built With
 Only using VSC
@@ -25,7 +28,7 @@ Only using VSC
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:victoriakf/project-exam-resit2-victoriakf.git
+git clone git@github.com:victoriakf/community-science-museum.git
 ```
 
 2. Install the dependencies:
